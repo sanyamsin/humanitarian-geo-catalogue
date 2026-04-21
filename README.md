@@ -57,6 +57,7 @@ Opens at `http://localhost:8501`.
 
 ## Repository Structure
 
+```
 humanitarian-geo-catalogue/
 ├── catalogue/
 │   ├── metadata.py         ← ISO 19115 MetadataRecord schema + validation
@@ -72,8 +73,7 @@ humanitarian-geo-catalogue/
 │   └── catalogue.yaml      ← Catalogue configuration
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## Catalogue Pages
 
