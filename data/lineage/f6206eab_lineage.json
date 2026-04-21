@@ -1,0 +1,55 @@
+{
+  "record_id": "f6206eab",
+  "dataset_title": "Événements de conflit — RCA 2024-2025",
+  "events": [
+    {
+      "event_type": "acquisition",
+      "description": "Dataset downloaded from OCHA HDX portal",
+      "performed_by": "GIS Data Steward",
+      "tool_used": "HDX CKAN API",
+      "source_datasets": [
+        "https://data.humdata.org"
+      ],
+      "output_dataset": "f6206eab",
+      "timestamp": "2026-04-21T20:56:13.541615",
+      "notes": "Original format: Shapefile ZIP"
+    },
+    {
+      "event_type": "transformation",
+      "description": "Converted to GeoPackage, reprojected to EPSG:4326",
+      "performed_by": "GIS Data Steward",
+      "tool_used": "Python / GeoPandas / GDAL",
+      "source_datasets": [
+        "f6206eab"
+      ],
+      "output_dataset": "f6206eab",
+      "timestamp": "2026-04-21T20:56:13.541615",
+      "notes": "Original CRS: EPSG:32632"
+    },
+    {
+      "event_type": "validation",
+      "description": "Automated quality checks passed (15 checks, score 0.91)",
+      "performed_by": "geodata-quality-pipeline",
+      "tool_used": "geodata-quality-pipeline v1.0",
+      "source_datasets": [
+        "f6206eab"
+      ],
+      "output_dataset": "f6206eab",
+      "timestamp": "2026-04-21T20:56:13.541615",
+      "notes": "2 warnings: duplicate name values"
+    },
+    {
+      "event_type": "publication",
+      "description": "Published to humanitarian geo-catalogue",
+      "performed_by": "GIS Data Governance Specialist",
+      "tool_used": "humanitarian-geo-catalogue v1.0",
+      "source_datasets": [
+        "f6206eab"
+      ],
+      "output_dataset": "f6206eab",
+      "timestamp": "2026-04-21T20:56:13.541615",
+      "notes": "Classification: Public"
+    }
+  ],
+  "last_updated": "2026-04-21T20:56:13.542629"
+}

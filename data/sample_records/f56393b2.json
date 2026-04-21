@@ -1,0 +1,38 @@
+{
+  "record_id": "f56393b2",
+  "title": "Zones d'intervention — Programme RCA 2023-2025",
+  "abstract": "Polygones des zones géographiques d'intervention du programme de développement rural en RCA financé par l'UE FED. Inclut les zones de couverture des activités agriculture, eau et sécurité alimentaire.",
+  "domain": "DD02",
+  "classification": "Restricted",
+  "geometry_type": "Polygon",
+  "crs": "EPSG:4326",
+  "source_organization": "IRAM / Programme RCA",
+  "data_steward": "GIS Data Steward — Operations",
+  "update_frequency": "monthly",
+  "format": "GeoJSON",
+  "date_created": "2026-04-21",
+  "date_modified": "2026-04-21",
+  "keywords": [
+    "intervention",
+    "RCA",
+    "programme",
+    "UE",
+    "FED",
+    "IRAM"
+  ],
+  "topic_category": "boundaries",
+  "bounding_box": {
+    "west": 15.0,
+    "east": 22.0,
+    "south": 3.5,
+    "north": 8.0
+  },
+  "temporal_extent_start": "2023-01-01",
+  "temporal_extent_end": "2025-12-31",
+  "source_url": "internal",
+  "licence": "Internal use only",
+  "lineage_description": "Délimitation terrain par équipes IRAM, numérisé sous QGIS, validé par coordination.",
+  "known_issues": "Certaines zones frontalières nécessitent mise à jour suite aux déplacements de population.",
+  "access_url": "data/sample_records/rca_intervention_zones.geojson",
+  "language": "fr"
+}

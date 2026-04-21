@@ -1,0 +1,37 @@
+{
+  "record_id": "ac3ea10d",
+  "title": "Corridors logistiques — Sahel Ouest",
+  "abstract": "Réseau de routes praticables et corridors logistiques pour les opérations humanitaires en Mauritanie, Mali et Sénégal. Inclut les points de passage, postes de contrôle et contraintes saisonnières.",
+  "domain": "DD04",
+  "classification": "Restricted",
+  "geometry_type": "LineString",
+  "crs": "EPSG:4326",
+  "source_organization": "OCHA / LogCluster",
+  "data_steward": "GIS Data Steward — Logistics",
+  "update_frequency": "monthly",
+  "format": "GeoJSON",
+  "date_created": "2026-04-21",
+  "date_modified": "2026-04-21",
+  "keywords": [
+    "logistique",
+    "routes",
+    "corridors",
+    "Sahel",
+    "humanitaire"
+  ],
+  "topic_category": "logistics",
+  "bounding_box": {
+    "west": -17.0,
+    "east": 4.0,
+    "south": 10.0,
+    "north": 25.0
+  },
+  "temporal_extent_start": "2024-06-01",
+  "temporal_extent_end": "present",
+  "source_url": "https://logcluster.org",
+  "licence": "CC BY 4.0",
+  "lineage_description": "Compilation LogCluster, validation terrain, ajout contraintes saisonnières.",
+  "known_issues": "Routes saison des pluies non encore mises à jour pour 2025.",
+  "access_url": "data/sample_records/sahel_logistics.geojson",
+  "language": "fr"
+}

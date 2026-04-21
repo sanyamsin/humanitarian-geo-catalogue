@@ -1,0 +1,37 @@
+{
+  "record_id": "f6206eab",
+  "title": "Événements de conflit — RCA 2024-2025",
+  "abstract": "Localisation géoréférencée des événements de conflit armé en République Centrafricaine. Source ACLED. Données agrégées par mois pour protéger la confidentialité opérationnelle. Utilisées pour l'analyse contextuelle et la planification sécuritaire.",
+  "domain": "DD05",
+  "classification": "Confidential",
+  "geometry_type": "Point",
+  "crs": "EPSG:4326",
+  "source_organization": "ACLED",
+  "data_steward": "GIS Data Steward — Security",
+  "update_frequency": "weekly",
+  "format": "GeoJSON",
+  "date_created": "2026-04-21",
+  "date_modified": "2026-04-21",
+  "keywords": [
+    "conflit",
+    "sécurité",
+    "ACLED",
+    "RCA",
+    "violence"
+  ],
+  "topic_category": "security",
+  "bounding_box": {
+    "west": 14.42,
+    "east": 27.46,
+    "south": 2.22,
+    "north": 11.0
+  },
+  "temporal_extent_start": "2024-01-01",
+  "temporal_extent_end": "present",
+  "source_url": "https://acleddata.com",
+  "licence": "ACLED Terms of Use",
+  "lineage_description": "Export ACLED API, agrégation mensuelle, suppression données sensibles, validation sécurité.",
+  "known_issues": "Sous-déclaration possible dans zones d'accès limité.",
+  "access_url": "data/sample_records/rca_conflict_2024.geojson",
+  "language": "fr"
+}

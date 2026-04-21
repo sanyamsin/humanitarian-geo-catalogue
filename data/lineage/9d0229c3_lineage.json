@@ -1,0 +1,55 @@
+{
+  "record_id": "9d0229c3",
+  "dataset_title": "Limites administratives RCA — Niveau 1",
+  "events": [
+    {
+      "event_type": "acquisition",
+      "description": "Dataset downloaded from OCHA HDX portal",
+      "performed_by": "GIS Data Steward",
+      "tool_used": "HDX CKAN API",
+      "source_datasets": [
+        "https://data.humdata.org"
+      ],
+      "output_dataset": "9d0229c3",
+      "timestamp": "2026-04-21T20:56:13.529720",
+      "notes": "Original format: Shapefile ZIP"
+    },
+    {
+      "event_type": "transformation",
+      "description": "Converted to GeoPackage, reprojected to EPSG:4326",
+      "performed_by": "GIS Data Steward",
+      "tool_used": "Python / GeoPandas / GDAL",
+      "source_datasets": [
+        "9d0229c3"
+      ],
+      "output_dataset": "9d0229c3",
+      "timestamp": "2026-04-21T20:56:13.529720",
+      "notes": "Original CRS: EPSG:32632"
+    },
+    {
+      "event_type": "validation",
+      "description": "Automated quality checks passed (15 checks, score 0.91)",
+      "performed_by": "geodata-quality-pipeline",
+      "tool_used": "geodata-quality-pipeline v1.0",
+      "source_datasets": [
+        "9d0229c3"
+      ],
+      "output_dataset": "9d0229c3",
+      "timestamp": "2026-04-21T20:56:13.529720",
+      "notes": "2 warnings: duplicate name values"
+    },
+    {
+      "event_type": "publication",
+      "description": "Published to humanitarian geo-catalogue",
+      "performed_by": "GIS Data Governance Specialist",
+      "tool_used": "humanitarian-geo-catalogue v1.0",
+      "source_datasets": [
+        "9d0229c3"
+      ],
+      "output_dataset": "9d0229c3",
+      "timestamp": "2026-04-21T20:56:13.529720",
+      "notes": "Classification: Public"
+    }
+  ],
+  "last_updated": "2026-04-21T20:56:13.530066"
+}

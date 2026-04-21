@@ -1,0 +1,38 @@
+{
+  "record_id": "9d0229c3",
+  "title": "Limites administratives RCA — Niveau 1",
+  "abstract": "Limites administratives de la République Centrafricaine au niveau préfectoral (admin1). Source officielle OCHA COD. Utilisées pour la cartographie opérationnelle MSF et le ciblage des zones d'intervention.",
+  "domain": "DD01",
+  "classification": "Public",
+  "geometry_type": "MultiPolygon",
+  "crs": "EPSG:4326",
+  "source_organization": "OCHA HDX",
+  "data_steward": "GIS Data Steward — Reference",
+  "update_frequency": "quarterly",
+  "format": "GeoPackage",
+  "date_created": "2026-04-21",
+  "date_modified": "2026-04-21",
+  "keywords": [
+    "boundaries",
+    "admin",
+    "CAR",
+    "RCA",
+    "OCHA",
+    "COD"
+  ],
+  "topic_category": "boundaries",
+  "bounding_box": {
+    "west": 14.42,
+    "east": 27.46,
+    "south": 2.22,
+    "north": 11.0
+  },
+  "temporal_extent_start": "2020-01-01",
+  "temporal_extent_end": "present",
+  "source_url": "https://data.humdata.org/dataset/cod-ab-caf",
+  "licence": "CC BY 4.0",
+  "lineage_description": "Téléchargé depuis HDX, converti en GeoPackage, reprojeté en EPSG:4326.",
+  "known_issues": "",
+  "access_url": "data/sample_records/rca_admin1.gpkg",
+  "language": "fr"
+}

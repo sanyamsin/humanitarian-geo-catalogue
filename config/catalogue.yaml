@@ -1,0 +1,42 @@
+catalogue:
+  name: "Humanitarian Geo-Catalogue"
+  version: "1.0"
+  description: "Geospatial data catalogue for humanitarian operations"
+  standard: "ISO 19115:2014"
+  language: "fr"
+  storage:
+    records_path: "data/sample_records"
+    index_file: "data/catalogue_index.json"
+
+topic_categories:
+  - boundaries
+  - health
+  - logistics
+  - security
+  - population
+  - environment
+  - infrastructure
+  - water
+
+domains:
+  DD01: "Reference Geospatial Data"
+  DD02: "Operational Field Data"
+  DD03: "Health & Epidemiological Data"
+  DD04: "Logistics & Supply Chain Data"
+  DD05: "Context & Security Data"
+
+classification_levels:
+  - Public
+  - Restricted
+  - Confidential
+  - Sensitive
+
+formats:
+  - GeoJSON
+  - GeoPackage
+  - Shapefile
+  - GeoTIFF
+  - PostGIS table
+  - WMS
+  - WFS
+  - CSV
