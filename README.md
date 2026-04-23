@@ -7,6 +7,7 @@ Metadata management - Lineage tracking - Dataset discovery - Streamlit UI
 [![ISO 19115](https://img.shields.io/badge/standard-ISO%2019115-darkblue.svg)](https://www.iso.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32-FF4B4B.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/Lokozu/humanitarian-geo-catalogue)
 
 ---
 
