@@ -1,5 +1,20 @@
 # humanitarian-geo-catalogue
 
+## 📊 Analyse interactive — Notebook
+
+[![Notebook](https://img.shields.io/badge/Analyse-Jupyter%20Notebook-orange)](notebooks/geo_catalogue_analysis.ipynb)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/Lokozu/humanitarian-geo-catalogue)
+
+**[→ Voir l'analyse complète du catalogue](notebooks/geo_catalogue_analysis.ipynb)**
+
+Le notebook couvre :
+- **5 datasets documentés**ISO :  19115, 5 domaines, 4 niveaux de classification
+- **Complétude des métadonnées** : taux de remplissage par champ obligatoire
+- **Lineage complet** : traçabilité de l'acquisition à la publication
+- **Recommandations** : 3 axes d'amélioration pour la gouvernance du catalogue
+
+> Accessible à tous les publics — responsables de données, chargés de programme, bailleurs.
+
 **ISO 19115 geospatial data catalogue for humanitarian organizations**  
 Metadata management - Lineage tracking - Dataset discovery - Streamlit UI
 
