@@ -13,7 +13,7 @@ Le notebook couvre :
 - **Lineage complet** : traçabilité de l'acquisition à la publication
 - **Recommandations** : 3 axes d'amélioration pour la gouvernance du catalogue
 
-> Accessible à tous les publics — responsables de données, chargés de programme, bailleurs.
+> Accessible à tous les publics, responsables de données, chargés de programme, bailleurs.
 
 **ISO 19115 geospatial data catalogue for humanitarian organizations**  
 Metadata management - Lineage tracking - Dataset discovery - Streamlit UI
